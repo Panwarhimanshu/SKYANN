@@ -1,15 +1,21 @@
 # SKYANN — AI-Powered Unisex Beauty
 
-Interactive, fully responsive e-commerce homepage prototype for **Skyann**.
+Interactive, fully responsive e-commerce prototypes for **Skyann**. Two design concepts:
 
-Dark-and-gold luxury UI with:
-- AI Skin Scan demo (scan animation → skin type → personalised 3-step routine)
+| Page | Concept | File |
+|------|---------|------|
+| `/` | **Dark-gold luxury** storefront | `index.html` |
+| `/editorial` | **Light editorial** slow-luxury concept | `editorial.html` |
+
+Both include:
+- AI Skin Scan demo (scan animation → skin type → personalised ritual)
 - Working cart drawer (add, quantity, remove, live subtotal, persisted)
-- Wishlist, live category filters, countdown deal, toasts
+- Wishlist, toasts, mobile nav
 - Mobile-first responsive, accessible, reduced-motion aware
 
 **Live demo:** https://skyann.vercel.app
 
-Single self-contained `index.html` — no build step. Open it directly or deploy as a static site.
+Self-contained static HTML — no build step. Product visuals are stylised placeholders,
+to be swapped for real photography in the full build.
 
-> Front-end concept for client review. Product visuals are stylised placeholders to be swapped for real photography in the full build.
+> Front-end concepts for client review.
